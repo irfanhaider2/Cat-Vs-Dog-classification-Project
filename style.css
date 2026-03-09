@@ -1,0 +1,57 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#1e3c72,#2a5298);
+margin:0;
+padding:0;
+}
+
+.container{
+width:500px;
+margin:auto;
+margin-top:80px;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+h1{
+color:#2a5298;
+margin-bottom:10px;
+}
+
+p{
+color:#666;
+}
+
+.upload-box{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+button{
+background:#2a5298;
+color:white;
+border:none;
+padding:12px 30px;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e3c72;
+}
+
+.result{
+margin-top:30px;
+font-size:22px;
+font-weight:bold;
+}
+
+.result img{
+margin-top:15px;
+width:300px;
+border-radius:10px;
+}
