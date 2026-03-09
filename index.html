@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Cat vs Dog AI Classifier</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🐶🐱 Cat vs Dog AI Classifier</h1>
+
+<p>Upload an image and Artificial Intelligence will classify it</p>
+
+<form method="POST" enctype="multipart/form-data">
+
+<div class="upload-box">
+
+<input type="file" name="file" required>
+
+</div>
+
+<button type="submit">Predict Image</button>
+
+</form>
+
+{% if prediction %}
+
+<div class="result">
+
+Prediction: {{ prediction }}
+
+<br>
+
+<img src="{{ img_path }}">
+
+</div>
+
+{% endif %}
+
+</div>
+
+</body>
+
+</html>
